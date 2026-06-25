@@ -1,0 +1,7 @@
+[flake8]
+# Django code style
+max-line-length = 119
+exclude = 
+        *.env*,
+        *migrations*
+        manage.py

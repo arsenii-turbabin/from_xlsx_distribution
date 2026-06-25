@@ -72,8 +72,6 @@ docker run -d --name redis -p 6379:6379 redis:7
 celery -A config worker -l info
 ```
 
-Replace `config` with your Django project name if needed.
-
 ## Import Mailing File
 
 ```bash
